@@ -167,7 +167,7 @@ function displayGroupedInfo(students) {
   // Виведемо корисне повідомлення з текстом `Вік: ${student.age}`
   // Виведемо корисне повідомлення з текстом `Предмет: ${student.subject}`
   // Закриємо групу
-  for (const x of students) {
+  for (const student of students) {
     console.group(`Студент: ${student.name}`);
     console.info(`Вік: ${student.age}`);
     console.info(`Предмет: ${student.subject}`);
